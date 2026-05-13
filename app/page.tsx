@@ -4,6 +4,7 @@ import Transformation from "../components/TransformationSection";
 import Testimonials from "../components/Testimonials";
 import PortfolioSection from "../components/PortfolioSection";
 import CaseStudies from "../components/CaseStudies";
+import ResultsSection from "../components/ResultsSection";
 import WhyChooseUs from "../components/WhyChooseUs";
 import ProcessSection from "../components/ProcessSection";
 import ServicesSection from "../components/ServicesSection";
@@ -19,6 +20,7 @@ export default function Home() {
       <Testimonials />
       <PortfolioSection />
       <CaseStudies />
+      <ResultsSection />
       <WhyChooseUs />
       <ProcessSection />
       <ServicesSection />
