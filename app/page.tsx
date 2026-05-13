@@ -1,31 +1,31 @@
 import Hero from "../components/Hero";
 import TrustSection from "../components/TrustSection";
+import ServicesSection from "../components/ServicesSection";
 import Transformation from "../components/TransformationSection";
-import Testimonials from "../components/Testimonials";
 import PortfolioSection from "../components/PortfolioSection";
 import CaseStudies from "../components/CaseStudies";
 import ResultsSection from "../components/ResultsSection";
-import WhyChooseUs from "../components/WhyChooseUs";
 import ProcessSection from "../components/ProcessSection";
-import ServicesSection from "../components/ServicesSection";
-import CTASection from "../components/CTASection";
+import WhyChooseUs from "../components/WhyChooseUs";
+import Testimonials from "../components/Testimonials";
 import FaqSection from "../components/FaqSection";
+import CTASection from "../components/CTASection";
 
 export default function Home() {
   return (
     <div className="bg-white">
       <Hero />
       <TrustSection />
+      <ServicesSection />
       <Transformation />
-      <Testimonials />
       <PortfolioSection />
       <CaseStudies />
       <ResultsSection />
-      <WhyChooseUs />
       <ProcessSection />
-      <ServicesSection />
-      <CTASection />
+      <WhyChooseUs />
+      <Testimonials />
       <FaqSection />
+      <CTASection />
     </div>
   );
 }
