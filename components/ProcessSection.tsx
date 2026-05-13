@@ -45,7 +45,7 @@ export default function ProcessSection() {
   ];
 
   return (
-    <section className="bg-[#F8FAFC] py-24 relative overflow-hidden font-sans">
+    <section id="process" className="bg-gray-50 py-24 font-sans">
       
       {/* Header Section */}
       <div className="max-w-4xl mx-auto text-center px-6 mb-20 relative z-20">

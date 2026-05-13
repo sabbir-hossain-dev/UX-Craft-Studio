@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function CaseStudies() {
   return (
-    <section className="bg-white py-24 relative overflow-hidden font-sans">
+    <section id="case-studies" className="bg-white py-24 font-sans">
       
       {/* Header Section */}
       <div className="max-w-4xl mx-auto text-center px-6 mb-12">

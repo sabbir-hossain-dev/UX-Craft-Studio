@@ -37,7 +37,7 @@ export default function FaqSection() {
   };
 
   return (
-    <section className="bg-white py-24 relative overflow-hidden font-sans">
+    <section id="faq" className="bg-white py-24 font-sans">
       
       {/* Header Section */}
       <div className="max-w-4xl mx-auto text-center px-6 mb-16 relative z-10">

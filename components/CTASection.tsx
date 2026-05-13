@@ -1,6 +1,6 @@
 export default function CtaSection() {
   return (
-    <section className="bg-white py-24 relative overflow-hidden font-sans px-6">
+    <section id="contact" className="bg-gray-50 py-24 font-sans">
       
       <div className="max-w-[1400px] mx-auto bg-[#0B47B3] rounded-[3rem] p-10 lg:p-16 flex flex-col lg:flex-row gap-12 lg:gap-20 items-center shadow-2xl relative overflow-hidden">
         

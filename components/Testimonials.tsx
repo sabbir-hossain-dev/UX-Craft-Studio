@@ -1,6 +1,6 @@
 export default function Testimonials() {
   return (
-    <section className="bg-[#F8FAFC] py-24 relative overflow-hidden font-sans">
+    <section id="testimonials" className="bg-gray-50 py-24 font-sans">
       
       {/* Header Section */}
       <div className="max-w-4xl mx-auto text-center px-6 mb-16 relative z-10">
