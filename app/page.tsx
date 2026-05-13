@@ -5,6 +5,7 @@ import Testimonials from "../components/Testimonials";
 import PortfolioSection from "../components/PortfolioSection";
 import CaseStudies from "../components/CaseStudies";
 import WhyChooseUs from "../components/WhyChooseUs";
+import ProcessSection from "../components/ProcessSection";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <PortfolioSection />
       <CaseStudies />
       <WhyChooseUs />
+      <ProcessSection />
     </div>
   );
 }
