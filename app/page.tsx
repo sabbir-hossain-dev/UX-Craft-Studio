@@ -8,6 +8,7 @@ import WhyChooseUs from "../components/WhyChooseUs";
 import ProcessSection from "../components/ProcessSection";
 import ServicesSection from "../components/ServicesSection";
 import CTASection from "../components/CTASection";
+import FaqSection from "../components/FaqSection";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <ProcessSection />
       <ServicesSection />
       <CTASection />
+      <FaqSection />
     </div>
   );
 }
