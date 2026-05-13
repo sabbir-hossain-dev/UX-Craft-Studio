@@ -6,6 +6,8 @@ import PortfolioSection from "../components/PortfolioSection";
 import CaseStudies from "../components/CaseStudies";
 import WhyChooseUs from "../components/WhyChooseUs";
 import ProcessSection from "../components/ProcessSection";
+import ServicesSection from "../components/ServicesSection";
+import CTASection from "../components/CTASection";
 
 export default function Home() {
   return (
@@ -18,6 +20,8 @@ export default function Home() {
       <CaseStudies />
       <WhyChooseUs />
       <ProcessSection />
+      <ServicesSection />
+      <CTASection />
     </div>
   );
 }
