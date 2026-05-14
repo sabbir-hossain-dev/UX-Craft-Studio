@@ -15,15 +15,15 @@ export default function Home() {
   return (
     <div className="bg-white">
       <Hero />
-      <TrustSection />
-      <ServicesSection />
-      <Transformation />
-      <PortfolioSection />
-      <CaseStudies />
-      <ResultsSection />
-      <ProcessSection />
+      {/* <TrustSection /> */}
+      {/* <ServicesSection /> */}
+      {/* <Transformation /> */}
+      {/* <PortfolioSection /> */}
+      {/* <CaseStudies /> */}
+      {/* <ResultsSection /> */}
+      {/* <ProcessSection /> */}
       <WhyChooseUs />
-      <Testimonials />
+      {/* <Testimonials /> */}
       <FaqSection />
       <CTASection />
     </div>
